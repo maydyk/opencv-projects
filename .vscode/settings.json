@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/denis/samples/opencv-projects/Chapter02",
+    "cmake.buildDirectory": "${sourceDirectory}/build"
+}

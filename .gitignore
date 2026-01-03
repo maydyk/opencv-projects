@@ -1,0 +1,5 @@
+# Reject the main build directory
+build/
+
+# Reject "build" in the subdirectories
+*/build/
