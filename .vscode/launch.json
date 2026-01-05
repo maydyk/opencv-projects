@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${command:cmake.launchTargetPath}",
-            "args": [],
+            "args": ["${workspaceFolder}/Chapter03/lena.jpg"],
             "stopAtEntry": false,
             "cwd": "${command:cmake.buildDirectory}",
             "environment": [],
