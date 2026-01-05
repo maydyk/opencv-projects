@@ -9,7 +9,12 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${command:cmake.launchTargetPath}",
-            "args": ["${workspaceFolder}/Chapter03/lena.jpg"],
+            "args": [
+                "${workspaceFolder}/Chapter05/data/test_noise.pgm",
+                "${workspaceFolder}/Chapter05/data/light.pgm",
+                "lightMethod", "1",
+                "segMethod", "1"
+            ],
             "stopAtEntry": false,
             "cwd": "${command:cmake.buildDirectory}",
             "environment": [],
